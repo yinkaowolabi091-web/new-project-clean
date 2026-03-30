@@ -4,7 +4,7 @@ pipeline {
    environment {
     FRONTEND_IMAGE= "mern-frontend:jenkins"
     BACKEND_IMAGE= "mern-backend:jenkins"
-    PoRT="5000"
+    PORT="5000"
     MONGO_URI="mongodb://mongo:27017/taskdb"
     }
     stages{
